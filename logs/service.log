@@ -1,0 +1,87 @@
+2026-10-19 00:24:09,437 | INFO     | model trained accuracy=0.900
+2026-10-19 00:24:09,493 | INFO     | saved model and training stats to /Users/macbookairm4chip/Desktop/SEM7/DAM405/practical5/model
+2026-10-19 00:30:44,427 | INFO     | normal event - service handled a request
+2026-10-19 00:30:44,427 | WARNING  | unexpected input but still handled
+2026-10-19 00:30:44,427 | ERROR    | a request failed
+2026-10-19 00:30:44,427 | CRITICAL | service cannot continue
+2026-10-19 00:32:40,213 | DEBUG    | detailed diagnostics for developers
+2026-10-19 00:32:40,213 | INFO     | normal event - service handled a request
+2026-10-19 00:32:40,213 | WARNING  | unexpected input but still handled
+2026-10-19 00:32:40,213 | ERROR    | a request failed
+2026-10-19 00:32:40,213 | CRITICAL | service cannot continue
+2026-10-19 00:34:14,134 | INFO     | model loaded from /Users/macbookairm4chip/Desktop/SEM7/DAM405/practical5/model/model.joblib
+2026-10-19 00:34:14,135 | INFO     | starting ml-service on http://127.0.0.1:5000
+2026-10-19 00:35:21,209 | INFO     | prediction=1 latency_ms=6.7
+2026-10-19 00:35:21,214 | INFO     | prediction=2 latency_ms=2.2
+2026-10-19 00:35:21,217 | INFO     | prediction=0 latency_ms=2.2
+2026-10-19 00:35:21,220 | INFO     | prediction=1 latency_ms=2.3
+2026-10-19 00:35:21,224 | INFO     | prediction=2 latency_ms=2.3
+2026-10-19 00:35:21,227 | INFO     | prediction=2 latency_ms=2.0
+2026-10-19 00:35:21,230 | INFO     | prediction=2 latency_ms=2.5
+2026-10-19 00:35:21,234 | INFO     | prediction=2 latency_ms=2.4
+2026-10-19 00:35:21,237 | INFO     | prediction=2 latency_ms=2.7
+2026-10-19 00:35:21,241 | INFO     | prediction=1 latency_ms=2.1
+2026-10-19 00:35:21,241 | INFO     | SUMMARY requests=10 errors=0 error_rate=0% avg_latency_ms=2.7
+2026-10-19 00:35:21,243 | INFO     | prediction=2 latency_ms=2.2
+2026-10-19 00:35:21,247 | INFO     | prediction=1 latency_ms=2.2
+2026-10-19 00:35:21,250 | INFO     | prediction=2 latency_ms=2.4
+2026-10-19 00:35:21,253 | INFO     | prediction=0 latency_ms=2.5
+2026-10-19 00:35:21,256 | INFO     | prediction=1 latency_ms=2.3
+2026-10-19 00:35:21,257 | INFO     | no drift on sepal length (cm): live=6.293 train=5.842 change=8%
+2026-10-19 00:35:21,257 | INFO     | no drift on sepal width (cm): live=2.960 train=3.048 change=3%
+2026-10-19 00:35:21,257 | INFO     | no drift on petal length (cm): live=4.700 train=3.770 change=25%
+2026-10-19 00:35:21,257 | INFO     | no drift on petal width (cm): live=1.460 train=1.205 change=21%
+2026-10-19 00:35:21,258 | ERROR    | prediction failed (bad input): expected 4 features, got 2 latency_ms=0.0
+2026-10-19 00:35:21,258 | ERROR    | prediction failed (bad input): body must be JSON with a 'features' list latency_ms=0.0
+2026-10-19 00:35:21,259 | ERROR    | prediction failed (bad input): '<' not supported between instances of 'str' and 'int' latency_ms=0.0
+2026-10-19 00:35:21,260 | WARNING  | negative feature value received: [-1.0, 3.0, 1.4, 0.2]
+2026-10-19 00:35:21,262 | INFO     | prediction=0 latency_ms=2.1
+2026-10-19 00:35:21,266 | INFO     | prediction=0 latency_ms=2.7
+2026-10-19 00:35:21,266 | INFO     | SUMMARY requests=20 errors=3 error_rate=15% avg_latency_ms=2.2
+2026-10-19 00:35:21,269 | INFO     | prediction=0 latency_ms=2.8
+2026-10-19 00:35:21,273 | INFO     | prediction=2 latency_ms=2.5
+2026-10-19 00:35:21,278 | INFO     | prediction=2 latency_ms=2.5
+2026-10-19 00:35:21,282 | INFO     | prediction=0 latency_ms=2.6
+2026-10-19 00:35:21,286 | INFO     | prediction=2 latency_ms=2.5
+2026-10-19 00:35:21,290 | INFO     | prediction=0 latency_ms=2.5
+2026-10-19 00:35:21,293 | INFO     | prediction=0 latency_ms=2.3
+2026-10-19 00:35:21,296 | INFO     | prediction=2 latency_ms=2.3
+2026-10-19 00:35:21,300 | INFO     | prediction=2 latency_ms=2.3
+2026-10-19 00:35:21,303 | INFO     | prediction=2 latency_ms=2.8
+2026-10-19 00:35:21,304 | INFO     | SUMMARY requests=30 errors=3 error_rate=10% avg_latency_ms=2.3
+2026-10-19 00:35:21,307 | INFO     | prediction=2 latency_ms=2.3
+2026-10-19 00:35:21,310 | INFO     | prediction=2 latency_ms=2.3
+2026-10-19 00:35:21,313 | INFO     | prediction=2 latency_ms=2.1
+2026-10-19 00:35:21,316 | INFO     | prediction=2 latency_ms=2.2
+2026-10-19 00:35:21,319 | INFO     | prediction=2 latency_ms=2.7
+2026-10-19 00:35:21,323 | INFO     | prediction=2 latency_ms=2.6
+2026-10-19 00:35:21,326 | INFO     | prediction=2 latency_ms=2.3
+2026-10-19 00:35:21,329 | INFO     | prediction=1 latency_ms=2.2
+2026-10-19 00:35:21,332 | INFO     | prediction=0 latency_ms=2.2
+2026-10-19 00:35:21,335 | INFO     | prediction=1 latency_ms=2.3
+2026-10-19 00:35:21,335 | INFO     | SUMMARY requests=40 errors=3 error_rate=8% avg_latency_ms=2.3
+2026-10-19 00:35:21,338 | INFO     | prediction=2 latency_ms=2.3
+2026-10-19 00:35:21,341 | INFO     | prediction=0 latency_ms=2.3
+2026-10-19 00:35:21,344 | INFO     | prediction=2 latency_ms=2.1
+2026-10-19 00:35:21,347 | INFO     | prediction=2 latency_ms=2.1
+2026-10-19 00:35:21,350 | INFO     | prediction=2 latency_ms=2.3
+2026-10-19 00:35:21,353 | INFO     | prediction=2 latency_ms=2.6
+2026-10-19 00:35:21,356 | INFO     | prediction=0 latency_ms=2.2
+2026-10-19 00:35:21,359 | INFO     | prediction=1 latency_ms=2.2
+2026-10-19 00:35:21,362 | INFO     | prediction=2 latency_ms=2.1
+2026-10-19 00:35:21,365 | INFO     | prediction=0 latency_ms=2.2
+2026-10-19 00:35:21,365 | INFO     | SUMMARY requests=50 errors=3 error_rate=6% avg_latency_ms=2.3
+2026-10-19 00:35:21,367 | INFO     | prediction=2 latency_ms=2.2
+2026-10-19 00:35:21,371 | INFO     | prediction=2 latency_ms=2.5
+2026-10-19 00:35:21,374 | INFO     | prediction=0 latency_ms=2.3
+2026-10-19 00:35:21,377 | INFO     | prediction=2 latency_ms=2.2
+2026-10-19 00:35:21,379 | INFO     | prediction=2 latency_ms=2.1
+2026-10-19 00:35:21,382 | INFO     | prediction=0 latency_ms=2.2
+2026-10-19 00:35:21,385 | INFO     | prediction=0 latency_ms=2.2
+2026-10-19 00:35:21,389 | INFO     | prediction=2 latency_ms=2.3
+2026-10-19 00:35:21,392 | INFO     | prediction=2 latency_ms=2.3
+2026-10-19 00:35:21,393 | INFO     | no drift on sepal length (cm): live=5.771 train=5.842 change=1%
+2026-10-19 00:35:21,393 | INFO     | no drift on sepal width (cm): live=3.012 train=3.048 change=1%
+2026-10-19 00:35:21,393 | WARNING  | possible drift on petal length (cm): live=6.534 train=3.770 change=73%
+2026-10-19 00:35:21,393 | WARNING  | possible drift on petal width (cm): live=2.077 train=1.205 change=72%
+2026-10-19 00:35:21,393 | INFO     | SUMMARY requests=59 errors=3 error_rate=5% avg_latency_ms=2.3

@@ -1,0 +1,15 @@
+{
+  "feature_names": [
+    "sepal length (cm)",
+    "sepal width (cm)",
+    "petal length (cm)",
+    "petal width (cm)"
+  ],
+  "train_means": [
+    5.8417,
+    3.0483,
+    3.77,
+    1.205
+  ],
+  "n_features": 4
+}
